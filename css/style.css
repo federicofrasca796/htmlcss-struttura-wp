@@ -37,6 +37,8 @@ body{
 main>*{
     margin:1.2rem 0;
 }
+
+
 /* #site-sections */
 #site-header{
     background-color: aqua;
@@ -45,7 +47,23 @@ main>*{
     background-color: salmon;
 }
 
-/* site-main inside structure */
+/* HEADER*/
+.logo{
+    height:80%;
+    padding-bottom: 1.2rem ;
+}
+nav>a{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    padding: 0 1rem 1rem 0;
+}
+nav>a:hover{
+    /* font-weight: 600; */
+    color: rgb(61, 61, 61);
+}
+
+/* MAIN */
 .heroshot{
     background-color: violet;
 }
