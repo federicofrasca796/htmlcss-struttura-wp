@@ -12,12 +12,21 @@
     clear: both;    
 }
 
-/* debug */
-.debug{
+/* debug [LAYOUT ONLY] */
+body > header{
     height: 100px;
 }
-.debug *{
+body section.heroshot{
+    height: 400px;
+}
+body header.section-title{
     height: 100px;
+}
+.main-content > * {
+    height:400px;
+}
+body>footer{
+    height: 50px;
 }
 
 /* common */
@@ -29,4 +38,27 @@ body{
 /* #site-sections */
 #site-header{
     background-color: aqua;
+}
+#site-footer{
+    background-color: salmon;
+}
+
+/* site-main inside structure */
+.heroshot{
+    background-color: violet;
+}
+.section-title{
+    background-color: yellowgreen;
+}
+/* --> main-content */ 
+.sb{
+    float:left;
+    width:25%;
+    background-color: yellow;
+}
+.central{
+    float:left;
+    width:48%;
+    margin: 0 1%;
+    background-color: pink;
 }
