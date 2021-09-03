@@ -13,10 +13,10 @@
 }
 
 /* debug [LAYOUT ONLY] */
-body > header{
+/* body > header{
     height: 100px;
 }
-body section.heroshot{
+main section.heroshot{
     height: 400px;
 }
 body header.section-title{
@@ -27,7 +27,7 @@ body header.section-title{
 }
 body>footer{
     height: 50px;
-}
+} */
 
 /* common */
 body{
@@ -37,7 +37,19 @@ body{
 main>*{
     margin:1.2rem 0;
 }
+h1{
+    font-size: 2.5rem;
+}
+p{}
 
+.white-container{
+    color: white;
+    width:50%;
+    /* margin: 0 0 2rem 2rem; NON EREDITA LA POSIZIONE DEL GENITORE!!! */
+}
+.white-txt>p{
+    font-size: 20px;
+}
 
 /* #site-sections */
 #site-header{
@@ -49,7 +61,7 @@ main>*{
 
 /* HEADER*/
 .logo{
-    height:80%;
+    width:200px;
     padding-bottom: 1.2rem ;
 }
 nav>a{
@@ -65,12 +77,19 @@ nav>a:hover{
 
 /* MAIN */
 .heroshot{
-    background-color: violet;
+    height: 600px;
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.26);
+    background-blend-mode: darken;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 .section-title{
-    background-color: yellowgreen;
-
+    
 }
+
 /* --> main-content */ 
 .sb{
     float:left;
