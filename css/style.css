@@ -6,7 +6,7 @@
 }
 
 /* utilities */
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;    
@@ -16,5 +16,17 @@
 .debug{
     height: 100px;
 }
+.debug *{
+    height: 100px;
+}
 
 /* common */
+body{
+    width: 80%;
+    margin: auto;
+}
+
+/* #site-sections */
+#site-header{
+    background-color: aqua;
+}
