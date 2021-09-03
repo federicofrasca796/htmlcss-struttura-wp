@@ -40,6 +40,8 @@ body{
     background-color: aqua;
 }
 #site-footer{
+    display:inline-block;
+    width:100%;
     background-color: salmon;
 }
 
